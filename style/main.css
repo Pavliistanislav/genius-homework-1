@@ -1,0 +1,109 @@
+@import url("../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf");
+@import url("../fonts/Play/Play-Bold.ttf");
+
+:root {
+  --main_color: #2B7FFF;
+  --color_background: #011C44;
+  --low-text-color: #747272; 
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main_color {
+  color: var(--main_color);
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+}
+
+.our_color {
+  color: var(--main_color);
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn-submit {
+  background-color: var(--main_color);
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.low-text {
+  font-size: 12px;
+  color: var(--low-text-color)
+}
+
+.form-example{
+  padding: 30px;
+  border-radius: 15px;
+  background-color: var(--color_background);
+  color: white;
+}
+
+
